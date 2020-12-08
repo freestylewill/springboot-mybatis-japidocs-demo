@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://99.12.205.192:3306/user_test?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: free@root
+#    driverLocation: D:\\AppInstall\\Java\\maven\\generator\\mybatis-generator-core-1.3.2\\lib\\mysql-connector-java-5.1.46.jar
+mybatis:
+  type-aliases-package: com.guigu.bean
+  mapper-locations: classpath:/mybatis/mapper/*Mapper.xml
